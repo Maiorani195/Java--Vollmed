@@ -1,4 +1,4 @@
-package med.vull.teste.endereco;
+package med.vull.testedomain.endereco;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package med.vull.teste;
+package med.vull;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

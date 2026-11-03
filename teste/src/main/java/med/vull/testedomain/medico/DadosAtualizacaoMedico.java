@@ -1,7 +1,7 @@
-package med.vull.teste.medico;
+package med.vull.testedomain.medico;
 
 import jakarta.validation.constraints.NotNull;
-import med.vull.teste.endereco.DadosEndereco;
+import med.vull.testedomain.endereco.DadosEndereco;
 
 public record DadosAtualizacaoMedico(
 

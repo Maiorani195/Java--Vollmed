@@ -1,4 +1,4 @@
-package med.vull.teste.medico;
+package med.vull.testedomain.medico;
 
 public enum Especialidade {
 

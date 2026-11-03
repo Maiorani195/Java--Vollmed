@@ -1,9 +1,9 @@
-package med.vull.teste.medico;
+package med.vull.testedomain.medico;
 
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import lombok.*;
-import med.vull.teste.endereco.Endereco;
+import med.vull.testedomain.endereco.Endereco;
 
 @Table(name = "medicos")
 @Entity(name = "Medico")
@@ -44,6 +44,17 @@ public class Medico {
 
     public Long getId() {
         return id;
+    }
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public boolean isAtivo() {
+        return ativo;
     }
 
     public Medico(DadosCadastroMedico dados) {

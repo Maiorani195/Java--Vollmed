@@ -1,4 +1,4 @@
-package med.vull.teste.endereco;
+package med.vull.testedomain.endereco;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
